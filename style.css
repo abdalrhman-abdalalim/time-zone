@@ -1,0 +1,436 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 3;
+    box-shadow: 0px 10px 10px rgba(25,25,25,0.1);
+}
+.nav .immg{
+    transition: all ease 0.5s;
+}
+.nav ul li a{
+    transition: all ease 0.5s;
+}
+.nav ul li a:hover{
+    color: red;
+    scale: 1.1;
+}
+.nav ul li .home:hover{
+    color: red;
+    scale: 1.1;
+}
+.nav .immg:hover{
+    scale: 1.2;
+}
+.nav ul li a , .nav-link{
+    color: rgb(0, 0, 0);
+}
+.nav ul li .home{
+    animation-duration: 0.5s;
+}
+.nav ul li .about{
+    animation-duration: 1s;
+}
+.nav ul li .Products{
+    animation-duration: 1.5s;
+}
+.nav ul li .Privacy{
+    animation-duration: 2s;
+}
+.firstRow{
+    /* display: flex; */
+}
+.firstRow .firstDiv{
+    padding-top: 200px;
+}
+.second-sec .container .firstRow .firstDiv h1{
+   color: rgb(10, 19, 68);
+   font-size: 70px;
+   font-weight: bold;
+}
+.second-sec{
+    width: 100%;
+    height: 650px;
+    margin-top: 50px;
+    background-color: rgb(231, 228, 228);
+}
+.second-sec .container .firstRow .firstDiv h6{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.second-sec .container .firstRow .firstDiv button{
+    background: linear-gradient(to left , #4a4a4b , #4a4a4b) no-repeat;
+    background-color: red;
+    background-size: 0%;
+    width: 150px;
+    height: 40px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: all ease 0.5s;
+}
+.second-sec .container .firstRow .firstDiv button:hover{
+    background-size: 100%;
+}
+.container .firstRow .secondDiv img{
+    height: 650px;
+    margin-left: 90px;
+}
+.second-row{
+    margin-top: 50px;
+}
+.second-row h3{
+    font-weight: bold;
+    font-size: 35px;
+}
+.second-row h5{
+    text-align: center;
+    margin-top: 15px;
+}
+.second-row .price{
+    background: linear-gradient(to left , #ff0000 , #ff0000) no-repeat;
+    text-align: center;
+    font-weight: bold;
+    color: red;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    background-size: 0%;
+    transition: all ease 1s;
+}
+.price:hover{
+    /* background-color: red; */
+    background-size: 70%;
+    color: #ffffff;
+}
+.imgSecondRow{
+    overflow: hidden;
+}
+.second-row img{
+    cursor: pointer;
+    transition:all ease-in-out 2s;
+}
+.second-row img:hover{
+    overflow: hidden;
+    transform: scale(1.5);
+}
+.another-img{
+    margin-top: 50px;
+}
+.gallery{
+    margin-top: 30px;
+}
+.gallery .container-fluid{
+    padding: 0;
+    overflow: hidden;
+}
+.gallery .single-gallery{
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+.gallery .single-gallery img{
+    height: 690px;
+}
+.gallery .container-fluid .mid-img img{
+    width: 320px;
+    height: 690px;
+}
+.gallery .container-fluid .row-img img{
+    margin-bottom: 40px;
+    /* scale: 1.4; */
+}
+.row-img{
+    height: 330px;
+    margin-bottom: 35px;
+    overflow: hidden;
+}
+.gallery .container-fluid {
+    padding: 0;
+    overflow: hidden;
+}
+.gallery .hoverImg {
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+.gallery .row .hoverImg img{
+    transform: scale(1.2);
+    transition: all 0.9s ease;
+}
+.gallery .row .hoverImg img:hover {
+    filter: brightness(0.6);
+    transform: scale(1);
+    transition: all 0.9s ease;
+}
+.fourth-sec{
+    margin-top: 40px;
+}
+.fourth-sec .container .row h1{
+    color: black;
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+}
+.fourth-sec .container .row h6{
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 180px;
+    text-wrap: wrap;
+    width: 800px;
+}
+/* .secondGal{
+    margin-top: 30px;
+} */
+.watch{
+    cursor: pointer;
+    position: relative;
+    border-bottom: 5px solid rgb(255, 0, 0);
+}
+.watch i{
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    font-size: 30px;
+    opacity: 0;
+    transition: all ease 0.7s;
+}
+.watch a{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: #ff0000b4;
+    padding: 20px;
+    opacity: 0;
+    transition: all ease 0.5s;
+}
+.watch:hover i{
+    opacity: 1;
+    transition: all ease 0.5s;
+} 
+.watch:hover a{
+    opacity: 1;
+    transition: all ease 0.5s;
+} 
+.text {
+    text-align: center;
+    padding-top: 10px;
+}
+.text h3 a{
+    color: #4a4a4b;
+}
+.text p{
+    font-weight: bold;
+    color: #ff0000;
+}
+.fifth-sec{
+    margin-top: 70px;
+    height: 500px;
+}
+.second-col img{
+    height: 500px;
+}
+.firstcol{
+    margin-top: 90px;
+}
+.firstcol h1{
+    color: black;
+    font-size: 50px;
+    font-weight: bold;
+}
+.firstcol h5{
+    font-size: 19px;
+    padding-top: 20px;
+}
+.firstcol button{
+    border: none;
+    background-color: red;
+    border-radius: 4px;
+    color: white;
+    width: 150px;
+    transition: all ease 0.5s;
+}
+.firstcol button:hover{
+    background-color: rgba(255, 0, 0, 0.39);
+    color: red;
+    scale: 1.2;
+}
+.sexth-row{
+    margin: 50px 80px;
+    background-color: #ff0000;
+    height: 200px;
+}
+.sexth-row .coulmn{
+    margin-top: 30px;
+    transition: all ease 1s;
+}
+.coulmn i{
+    font-size: 40px;
+    color: white;
+    margin-bottom: 20px;
+}
+.coulmn h6{
+    color: white;
+}
+.coulmn p{
+    width: 210px;
+}
+.sexth-row .coulmn:hover{
+    translate: 0px -30px;
+    scale: 1.1;
+    background-color: rgb(255, 255, 255);
+    /* rotate: 90deg; */
+}
+.sexth-row .coulmn:hover i{
+    color: #ff0000;
+}
+.sexth-row .coulmn:hover h6{
+    color: #ff0000;
+}
+.seventh-sec{
+    margin-top: 160px;
+    background-color: white;
+    height: 400px;
+}
+.seventh-sec h6{
+    padding-top: 20px;
+    word-spacing: 2px;
+    line-height: 30px;
+    color: rgb(131, 131, 131);
+}
+ul{
+    margin-left: -30px;
+    list-style: none;
+}
+ul li{
+    padding-bottom: 20px;
+}
+ul li a{
+    color: rgb(131, 131, 131);
+    padding-bottom: 10px;
+    transition: all ease 0.5s;
+}
+ul li a:hover{
+    color: red;
+}
+.footer{
+    margin-top: 40px;
+}
+.footer span{
+    color: red;
+}
+.footer .footerLogo i{
+    padding-left: 20px;
+    transition: all ease 1s;
+}
+.footer .fa-twitter:hover{
+    color: #0686b9;
+    rotate: 360deg;
+}
+.footer .fa-facebook-f:hover{
+    color: #0004fc;
+    rotate: 360deg;
+}
+.footer .fa-behance:hover{
+    color: #002c3d;
+    rotate: 360deg;
+}
+.footer .fa-globe:hover{
+    color: #012938;
+    rotate: 360deg;
+}
+/************************ Start Media Query *****************************/
+
+@media only screen and (min-width: 0px) and (max-width: 575px){
+    .second-sec{
+        height: 800px;
+    }
+    .second-row h3{
+        text-align: center;
+        font-size: 30px;
+    }
+    .second-sec .container{
+        margin-top: -140px;
+    }
+    .second-sec .container .firstRow .firstDiv h1{
+        font-size: 35px;
+    }
+    .second-row img{
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .gallery-second-img{
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .second-col img{
+        height: 200px;
+    }
+    .sexth-sec{
+        margin-top: 100px;
+        height: 700px;
+        background-color: #ff0000;
+    }
+}
+
+
+
+@media only screen and (min-width: 576px) and (max-width: 767px){
+    .second-row h3{
+        text-align: center;
+    }
+    .second-row img{
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .fifth-sec img{
+        height: 300px;
+    }
+    .sexth-sec{
+        margin-top: 100px;
+        height: 600px;
+        background-color: #ff0000;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .gallery-second-img{
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .fifth-sec img{
+        width: 350px;
+    }
+    .sexth-sec{
+        margin-top: 100px;
+        height: 400px;
+        background-color: #ff0000;
+    }
+}
+
+
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+    .second-row img{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
+
+
+@media only screen and (min-width: 1200px) and (max-width: 1550px){
+.service .container .row p{
+
+    width: 70%;
+}
+}
+
+/************************ End Media Query *****************************/
